@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div id="form-signup">
+       <form action="#" method="post" id="form-submit">
+        <h3>Form đăng ký</h3>
+            <div id="form-group">
+                <label>Tên đầy đủ</label>
+                <input type="text" placeholder="vd: Quynhlx" id="name"/>
+                <span id="message-error" class="errorName"></span>
+            </div>
+
+            <div id="form-group">
+                <label>Email</label>
+                <input type="text" placeholder="vd: Abc@gmail.com" id="email"/>
+                <span id="message-error" class="errorEmail"></span>
+            </div>
+
+            <div id="form-group">
+                <label>Mật khẩu</label>
+                <input type="password" placeholder="Nhập mật khẩu" id="password"/>
+                <span id="message-error" class="errorPassword"></span>
+            </div>
+
+            <div id="form-group">
+                <label>Nhập lại mật khẩu</label>
+                <input type="password" placeholder="Nhập lại mật khẩu" id="repeatPassword"/>
+                <span id="message-error" class="errorRepeatPassword"></span>
+            </div>
+            <button id="button-signup" type="button" >Đăng ký</button>
+       </form>
+    </div>
+</body>
+<footer>
+    <script src="vadilate.js">
+
+    </script>
+</footer>
+</html>
